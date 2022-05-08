@@ -5,6 +5,7 @@
 
 body{
   font-family: 'Outfit', sans-serif;
+  font-size: 15px;
   background-color:  hsl(212, 45%, 89%);
   min-height: 100vh;
   display: flex;
@@ -13,7 +14,7 @@ body{
 
 
 .container{
-  max-width: 270px;
+  max-width: 350px;
   height: 370px;
   margin: 0 auto;
 }
@@ -24,8 +25,8 @@ body{
   text-align: center;
   padding: 10px;
   margin: 0 auto;
-  height: 350px;
-  width: 210px;
+  height: 330px;
+  width: 200px;
 }
 
 .card img{
@@ -37,7 +38,7 @@ body{
   padding: 15px 6px;
 }
 
-.text h2{
+.text h1{
   color: hsl(218, 44%, 22%);
   padding-bottom: 15px;
   font-size: 15px;
@@ -45,6 +46,6 @@ body{
 
 .text p{
   color: hsl(220, 15%, 55%);
-  font-size: 11px;
   padding: 0 7px;
+  font-size: 11px;
 }
